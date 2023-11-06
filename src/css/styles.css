@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* --- NAVBAR --- */
+
+.navbar-nav{
+    justify-content: space-between;
+}
+
+.nav-link{
+    margin-top: 3rem;
+}
+.wrap2{
+    margin: auto;
+    text-align: center;
+}
+
+/* --- CARROUSEL --- */
+
+.text-banner{
+    position: relative;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.03);
+}
+.carousel{
+    position: absolute;
+}
+
+.carousel-caption{
+    background-color: rgba(119, 119, 119, 0.097);
+    height: 6em;
+    font-size: 1.7rem;
+}
+
+/* --- CARD --- */
+
+.plant-cards{
+    background-color: white;
+}
+
+.title-text{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sta{
+    margin-left: 10rem;
+}
+
+.cardiv{
+    border-radius: 50px;
+}
+
+
+/* --- Responsive --- */
+@media only screen and (max-width: 990px) {
+    .logo{
+        display: none;
+    }
+    .nav-link{
+        margin-top: 1px;
+    }
+  }

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-block align-middle">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup" >
+                <div class="navbar-nav">
+                  <a class="nav-link active fs-5 " aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link fs-5 " href="#">Nosotros</a>
+                  <div class="absolute">
+                    <img class="logo position-relative" src="./src//img/logo.png" alt="" srcset="">
+                  </div>
+                  <a class="nav-link fs-5 " href="#">Maceteros</a>
+                  <a class="nav-link fs-5 " href="#">Ubicación</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="wrap2">
+                <!-- <div class="text-banner">
+                    <h1>Jolliv Mallki</h1>
+                    <p>La solución ideal para tu jardín</p>
+                </div> -->
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-caption d-none d-md-block top-0 mt-4" style="bottom: 0;">
+                            <h5 class="display-4 fw-bolder text-capitalize">Automatización en riego</h5>
+                            <p class=" fs-3 text-capitalize">¡Conectalo y deja de preocuparte por la cantidad de agua!</p>
+                          </div>
+                        <img src="./src/img/banner-macetero.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./src/img/banner-macetero2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./src/img/banner-macetero-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="plant-cards">
+                  <div class="title-text">
+                    <h2 class="fs-2">¡Echa un vistazo a estas plantas!</h2>
+                  </div>
+                  <div class="row mx-5 card-plants">
+                    <div class="col sta">
+                      <div class="card cardiv" style="width: 18rem;">
+                        <img src="./src/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h2 class="card-text">Planta de Mandarinas</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./src/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h2 class="card-text">Planta de <br> Uvas </h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./src/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h2 class="card-text">Planta de Cerezas</h2>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        .
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

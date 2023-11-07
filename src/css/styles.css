@@ -5,7 +5,9 @@
 }
 
 /* --- NAVBAR --- */
-
+.navbar{
+    background-color: #BBDB9B;
+}
 .navbar-nav{
     justify-content: space-between;
 }
@@ -19,7 +21,9 @@
 }
 
 /* --- CARROUSEL --- */
-
+/* .container-fluid{
+    background-color: ;
+} */
 .text-banner{
     position: relative;
     width: 100%;
@@ -35,11 +39,18 @@
     font-size: 1.7rem;
 }
 
+.cap2{
+    background-color: rgba(119, 119, 119, 0.676);
+    height: 6em;
+    font-size: 1.7rem;
+}
+
+.carousel-caption h5, .carousel-caption p{
+    color: #000000;
+}
+
 /* --- CARD --- */
 
-.plant-cards{
-    background-color: white;
-}
 
 .title-text{
     margin-top: 2rem;
@@ -50,12 +61,53 @@
     margin-left: 10rem;
 }
 
-.cardiv{
-    border-radius: 50px;
+.opinion-card{
+    width: 350px;
+}
+
+.opinion-card-img{
+    height: 200px;
+}
+
+/* --- Opinion Card --- */
+
+.opinion{
+    margin-top: 50px;
+    background-color: #9DB4AB;
+}
+
+.title-text{
+    padding-top: 50px;
 }
 
 
+.opinions-cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.container i {
+    font-size: 20px;
+}
+
+.cards-op{
+ margin-left: 5rem;
+}
+
+
+
 /* --- Responsive --- */
+@media only screen and (max-width: 1230px){
+    .card-cont{
+        width: 200px;
+    }
+
+    .sta{
+        margin-left: 0;
+    }
+}
 @media only screen and (max-width: 990px) {
     .logo{
         display: none;
@@ -63,4 +115,34 @@
     .nav-link{
         margin-top: 1px;
     }
+    
+    .col{
+        width: 10px;
+        height: 180px;
+    }
+    .col{
+        display: flex;
+        
+    }
+
+    .card-cont{
+        width: 90px;
+    }
+
+    .sta{
+        margin-left: 0;
+    }
+
+    .card-cont img{
+        width: 110px;
+    }
   }
+@media only screen and (max-width: 630px){
+    .card-plants{
+        flex-direction: column;
+    }
+
+    .sta{
+        margin-left: 0;
+    }
+}

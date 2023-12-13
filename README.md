@@ -28,8 +28,8 @@ npm -v
 Para instalar git correr el siguiente codigo
 
 ```bash
-sudo apt-get update -y
-sudo apt-get install git -y
+sudo yum update -y
+sudo yum install git -y
 ```
 
 Verificar instalación del git
